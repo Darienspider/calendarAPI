@@ -1,0 +1,18 @@
+Steps to begin using api
+
+1. Enable api on account
+https://console.cloud.google.com/flows/enableapi?apiid=calendar-json.googleapis.com
+    a.> Confirm Project
+        > Click next
+        > Click enable
+2. Configure the OAuth consent screen
+3. Create credentials
+Install the Google client library
+Install the Google client library for Python:
+
+
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+
+main documentation: 
+https://developers.google.com/calendar/api/quickstart/python
